@@ -1,0 +1,6 @@
+select id, name, CreatedDate from Account Where createdDate = LAST_90_DAYS ORDER BY CreatedDate DESC
+
+
+select id, name, CreatedDate from Account ORDER BY CreatedDate DESC Limit 1
+
+select name, Account.Name, Account.Industry FROM Contact WHERE account.industry = 'Energy'
